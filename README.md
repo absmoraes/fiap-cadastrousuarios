@@ -1,27 +1,23 @@
-# mbaFiap-adriano-cadastrousuarios
-  - Projeto de conclusão da disciplina de DESENVOLVIMENTO DE MICROSSERVIÇOS E APIS - MBA FIAP
+# MBA Fiap - Cadastro de usuários
+<br>
+Projeto de conclusão da disciplina de DESENVOLVIMENTO DE MICROSSERVIÇOS E APIS - MBA FIAP
+<br>
 
 <br>
 
 ## Aluno 
   -  Adriano Bastos e Silva (rm344764)
-  
-<br>
-
-  ## Link gitHub:
-  - https://github.com/senafsc/mbaFiap-adrianoAndersonGustavoLuisPaulo-cadastro.git
-
 <br>
 
 ## Descrição:
-  - O Projeto consiste numa aplicação para realizar as seguintes funções relacionadas a uma cadastro de usuários do sistema:
+O Projeto consiste numa aplicação para realizar as seguintes funções relacionadas a uma cadastro de usuários do sistema:
   - Cadastrar um usuário;
   - Criptografar a senha do usuário cadastrado;
   - Autenticar usuário;
   - Gerar token JWT;
   - Alterar a senha do usuário
 
-<br><br>
+<br>
 
 ## Requisitos:
 - node versão 14.19.1 ou superior;
@@ -36,9 +32,9 @@
     npm install && npm start
     ```
 
-# Rotas: incluido arquivo do postman para execução das requisições -> TrabalhoFiap.postman_collection.json
+## Rotas: incluido arquivo do postman para execução das requisições -> TrabalhoFiap.postman_collection.json
 
-  ## - Cadastro:
+  ### - Cadastro:
   - **POST:**
     - http://localhost:3001/api/usuarios/cadastro
     
@@ -50,7 +46,7 @@
       "Erra ao tentar gerar a senha -> Error: data and salt arguments required"
       "Erra ao cadastrar"
   
-  ## - LOGIN:
+  ### - LOGIN:
   - **POST:**
     - http://localhost:3001/api/usuarios/login
    
@@ -66,7 +62,7 @@
        "Usuário ao validar senha"    
 <br>
 
- ## - ATUALIZAR DADOS DO USUÁRIO:
+ ### - ATUALIZAR DADOS DO USUÁRIO:
   - **PUT:**
     - http://localhost:3001/api/usuarios/atualizarsenha/6434b05805d173c031373a04
     
