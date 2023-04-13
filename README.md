@@ -46,7 +46,7 @@ O Projeto consiste numa aplicação para realizar as seguintes funções relacio
       "Erra ao tentar gerar a senha -> Error: data and salt arguments required"
       "Erra ao cadastrar"
   
-  ### - LOGIN:
+  ### - Login:
   - **POST:**
     - http://localhost:3001/api/usuarios/login
    
@@ -62,7 +62,7 @@ O Projeto consiste numa aplicação para realizar as seguintes funções relacio
        "Usuário ao validar senha"    
 <br>
 
- ### - ATUALIZAR DADOS DO USUÁRIO:
+ ### - Atualizar dados do uauário:
   - **PUT:**
     - http://localhost:3001/api/usuarios/atualizarsenha/6434b05805d173c031373a04
     
